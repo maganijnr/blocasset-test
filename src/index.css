@@ -1,0 +1,21 @@
+@import url("assets/Font/stylesheet.css");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Euclid Square';
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input, button{
+  outline: none;
+}

@@ -1,4 +1,6 @@
 import styled from 'styled-components/macro'
+import BgOne from '../../assets/flowerImg.svg'
+import BgTwo from '../../assets/handImg.svg'
 
 export const SpecialsBody = styled.div`
    margin: 1rem auto;
@@ -77,7 +79,9 @@ export const SpecialsH2 = styled.h2`
 export const SpecialsCardWrapper = styled.div`
    display: flex;
    align-items: center;
+   justify-content: space-between;
    flex-wrap: wrap;
+   width: 100%;
 
    @media (max-width: 550px){
       flex-direction: column;
@@ -86,7 +90,7 @@ export const SpecialsCardWrapper = styled.div`
 `
 
 export const SpecialsCard = styled.div`
-   flex: 1;
+   /* flex: 1;
    width: 600px;
    max-width: 600px;
    height: 478px;
@@ -96,35 +100,31 @@ export const SpecialsCard = styled.div`
    cursor: pointer;
    margin: 0 1rem;
    overflow: hidden;
-   border-radius: 8px;
+   border-radius: 8px; */
+   width: 600px;
+   flex: 1;
+   position: relative;
+   height: 478px;
+   background: ${({bgColor}) => bgColor};
+   margin: 0 1rem;
+   overflow: hidden;
+   border-radius: 8px; 
 
    @media (max-width: 1025px) {
-      width: 449.99px;
-      height: 465.49px;
+      width: 413.62px;
+      height: 322px;
+      border-radius: 10px; 
    }
 
    @media (max-width: 550px) {
-      width: 359.77px;
-      height: 300.94px;
+      width: 300px;
+      height: 300px;
       margin: 1rem 0;
    }
 `
 
-export const CardImgWrapper = styled.div`
-   width: 100%;
-   height: 100%;
-   position: absolute;
-   top: 0;
-   left: 0;
-
-   @media (max-width: 550px){
-      width: 359.77px;
-      height: 300.94px;
-   }
-`
-
 export const CardImg = styled.img`
-   /* width: 100%; */
+   width: 100%;
 `
 
 export const CardInfo = styled.div`

@@ -58,6 +58,7 @@ export const ReleaseP = styled.p`
    color: #385160;
    font-weight: 400;
    font-size: 18px;
+   text-align: center;
 
    @media (max-width: 1025px){
       font-weight: 400;
@@ -110,7 +111,7 @@ export const ReleaseCards = styled.div`
 
    @media (max-width: 768px){
       grid-template-columns: 1fr;
-      grid-column-gap: 10px;
+      grid-column-gap: 0px;
       grid-row-gap: 10px;
    }
 

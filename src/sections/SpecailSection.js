@@ -6,7 +6,6 @@ import {
    SpecialsH2,
    SpecialsCardWrapper,
    SpecialsCard,
-   CardImgWrapper,
    CardImg,
    CardInfo,
    CardH2,
@@ -35,9 +34,7 @@ function SpecailSection() {
                         bgColor={info.bgColor && info.bgColor} 
                         bgGradient={info.bgGradient && info.bgGradient}
                      >
-                        <CardImgWrapper>
-                           <CardImg src={info.image} alt="img"/>
-                        </CardImgWrapper>
+                        <CardImg src={info.image} alt="img"/>
                         <CardInfo>
                            <CardH2>{info.cardH2}</CardH2>
                            <CardBtn>

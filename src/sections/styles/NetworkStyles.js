@@ -3,173 +3,298 @@ import styled from 'styled-components/macro'
 import {BsArrowRight} from 'react-icons/bs'
 
 export const NetworkBody = styled.div`
+   text-align: center;
    width: 100%;
-   position: relative;
-   background: rgba(255, 255, 255, 1);
-   margin: 1rem auto;
 `
 
 export const NetworkContainer = styled.div`
-   width: 100%;
-   max-width: 1540px;
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   margin:0 auto;
-   padding: 60px 20px;
+   margin: 2rem 0rem;
    height: 100%;
+   width: 100%;
 
+   @media (max-width:550px){
+      min-height: 900px;
+   }
 `
 
 export const NetworkHeader = styled.div`
-   width: 900px;
-   max-width: 900px;
-   flex: wrap;
-   text-align: center;
    position: relative;
 `
 
 export const TopArrow = styled.div`
+   width: 129px;
+   height: 86px;
+   transform: rotate(10deg);
+   margin-left: -20px;
    position: absolute;
-   top: 20%;
-   left: -15%;
-   /* transform: translate(-85%, -40%); */
+   top: 200px;
+   left: 90px;
+
+   img{
+      width: 100%;
+   }
+
+   @media (max-width:1024px){
+      width: 120px;
+      height: 80px;
+      /* transform: rotate(10deg); */
+      margin-left: -20px;
+      position: absolute;
+      top: 20px;
+      left: 110px;
+   }
+
+   @media (max-width:600px){
+      width: 82px;
+      height: 55px;
+      /* transform: rotate(10deg); */
+      margin-left: -20px;
+      position: absolute;
+      top: 120px;
+      left: 35%;
+   }
+
+   @media (max-width:550px){
+      position: absolute;
+      top: 100px;
+      left: 35%;
+   }
+
 `
 
 export const BottomArrow = styled.div`
    position: absolute;
-   top: 90%;
-   transform: translateY(-5%);
-   right: 20%;
-   transform: translateX(60%);
+   bottom: 20px;
+   right: 250px;
+   width: 129px;
+   height: 86px;
+
+   img{
+      width: 100%;
+   }
+
+   @media (max-width:1024px){
+      width: 129px;
+      height: 86px;
+      transform: rotate(10deg);
+      margin-left: -20px;
+      position: absolute;
+      top: 80%;
+      transform: translateY(10%);
+      left: 800px;
+   }
+
+   @media (max-width:600px){
+      left: 220px;
+      top: 90%;
+      transform: translateY(10%);
+   }
 `
 
 export const NetworkH3 = styled.h3`
-   color: #CC572F;
+   padding: 123px 0 22px 0;
    font-size: 24px;
-   font-weight: 400;
    line-height: 32px;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 32px;
+   text-align: center;
    letter-spacing: -0.02em;
+   color: #CC572F;
 
-   @media(max-width: 1025px){
-      font-weight: 400;
+
+   @media (max-width: 1024px){
+      padding: 123px 0 22px 0;
       font-size: 24px;
       line-height: 32px;
-      text-align: center;
-      letter-spacing: -0.02em;
+      font-weight: 400;
    }
 
-   @media (max-width: 550px){
+   @media (max-width: 900px){
+      padding: 123px 0 22px 0;
+      font-size: 24px;
+      line-height: 32px;
       font-weight: 400;
+   }
+
+   @media (max-width: 900px){
+      padding: 213px 0 22px 0;
       font-size: 18px;
       line-height: 24px;
-      text-align: center;
-      letter-spacing: -0.02em;
+      font-weight: 400;
    }
 `
 
 export const NetworkH1 = styled.h1`
-   color: #1F2937;
-   letter-spacing: -0.02em;
+   font-weight: 500;
+   width: 65%;
+   margin: auto;
+   padding: 0 0 64px;
    font-size: 36px;
-   font-weight: 400;
    line-height: 44px;
-   margin: 22px 0;
+   /* or 122% */
 
-   @media(max-width: 1025px){
-      font-weight: 400;
+   text-align: center;
+   letter-spacing: -0.02em;
+
+   /* Neutral/800 */
+
+   color: #1F2937;
+
+   @media (max-width: 1024px){
       font-size: 36px;
       line-height: 44px;
-      text-align: center;
-      letter-spacing: -0.02em;
+      font-weight: 500;
+      width: 85%;
+      margin: auto;
+      padding: 0 0 64px;
    }
 
-   @media (max-width: 550px){
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 24px;
-      text-align: center;
-      letter-spacing: -0.02em;
+   @media (max-width: 900px){
+      font-size: 30px;
+      line-height: 44px;
+      font-weight: 500;
+      width: 85%;
+      margin: auto;
+      padding: 0 0 64px;
+   }
+
+   @media (max-width: 600px){
+      font-size: 24px;
+      line-height: 32px;
+      width: 65%;
+      margin: auto;
+      padding: 0 0 24px;
+   }
+
+   @media (max-width: 500px){
+      width: 95%;
    }
 `
 
 export const NetworkBtn = styled.button`
-   display: flex;
-   align-items: center;
-   background: #062638;
-   border: none;
-   border-radius: 8px;
-   padding: 14px 24px;
-   color: #FFFFFF;
-   margin: 0 auto;
    font-size: 16px;
    line-height: 24px;
    font-weight: 600;
+   border: none;
+   background: #062638;
+   border-radius: 8px;
+   color: #FFFFFF;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 14px 24px;
+   margin:  0 auto .5rem;
    cursor: pointer;
-
-   @media (max-width: 1025px){
-      font-size: 16px;
-   }
-
-   @media (max-width: 550px){
-      font-size: 16px;
-   }
 `
 
 export const BtnIcon = styled(BsArrowRight)`
-   margin-left: .5rem;
-   color: #FFFFFF;
+   margin-left: 10px;
 `
-
 export const NetworkCards = styled.div`
    display: flex;
-   align-items: center;
-   justify-content: space-between;
-   width: 100%;
-   height: 100%;
-   margin: 1.5rem auto 0;
-   padding: 0 20px;
-   
-   @media (max-width: 1025px){
+   justify-content: center;
+   padding: 0 35px;
+   gap: 22px;
+   position: relative;
 
-      overflow-x: scroll;
+   @media(max-width: 1024px){
+      padding-bottom: 70px;
+   }
 
-      &::-webkit-scrollbar{
-         width: 0;
-      }
+   @media(max-width: 600px){
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 0px;
    }
 `
 
 export const NetworkCard = styled.div`
-   max-width: 315px;
-   min-height: 315px;
-   border: none;
-   border-radius: 8px;
-   overflow: hidden;
    cursor: pointer;
 
-   :hover {
-      transform: scale(1.2);
-      transition: .3s ease-in-out transform;
+   :hover{
+      transform: scale(1.12);
+      transition: .3s ease-in-out all;
+   }
+   :nth-child(1){
+      width: 264px;
    }
 
-   /* @media (max-width: 1025px){
-      max-width: 280px;
-      min-height: 280px;
-   } */
+   :nth-child(2){
+      width: 450px;
+      /* background: red; */
+   }
+
+   :nth-child(3){
+      width: 381px;
+   }
+   
+   :nth-child(4){
+      width: 264px;
+   }
+   
+   :nth-child(2){
+      margin: 20px 0;
+   }
+
+   :nth-child(3) {
+      margin: 73px 0;
+   }
+
+   @media (max-width: 1024px) {
+      :nth-child(2) {
+         margin: 87px 0;
+         display: none;
+      }
+   }
+
+   @media (max-width: 900px) {
+      :nth-child(2){
+         display: none;
+      }
+
+      :nth-child(4) {
+         /* margin: 87px 0; */
+         display: none;
+      }
+   }
+
+   @media (max-width: 600px){
+      :nth-child(1){
+         margin: 40px 0 0;
+      }
+      :nth-child(3){
+         margin: 0;
+      }
+      :nth-child(4){
+         margin: 0 0 150px;
+         display: block;
+      }
+
+      :nth-child(1),
+      :nth-child(3),
+      :nth-child(4){
+         width: 100%;
+      }
+   }
+
+   img{
+      width: 100%;
+      max-width:264px;
+   }
 `
 
 export const CardInfo = styled.div`
    display: flex;
-   align-items: center;
    justify-content: space-between;
+   align-items: center;
+   position: relative;
+   width: 265px;
+   margin: 0 auto;
 `
 
 export const CardUser = styled.div`
    display: flex;
-   align-items: center;
 `
 
 export const UserImg = styled.img`
@@ -177,27 +302,28 @@ export const UserImg = styled.img`
 `
 
 export const Info = styled.div`
-   flex-wrap: nowrap;
+   padding-left: 6px;
+   text-align: left;
 `
 
 export const Username = styled.h3`
    font-size: 18px;
-   color: #4B5563;
-   line-height: 160%;
    font-weight: 400;
+   line-height: 160%;
+   color: #4B5563;
 `
 
 export const Usernetwork = styled.h5`
-   color: #9CA3AF;
    font-size: 14px;
    line-height: 160%;
+   color: #9CA3AF;
    font-weight: 400;
 `
 
 export const Userfollow = styled.h3`
    color: #ff6d3b;
-   line-height: 160%;
-   font-weight: 500;
    font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
 `
 

@@ -46,25 +46,25 @@ export const trendingCards = [
    {id:3, image:ImageThree, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
    {id:4, image:ImageThree, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
    {id:5, image:ImageFour, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:6, image:ImageFive, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:7, image:ImageSix, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:8, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:9, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:10, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:11, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:12, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:13, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:14, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:15, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:16, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:17, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:18, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:19, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:20, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:21, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:22, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:23, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
-   // {id:24, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:6, image:ImageFive, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:7, image:ImageSix, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:8, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:9, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:10, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:11, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:12, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:13, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:14, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:15, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:16, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:17, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:18, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:19, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:20, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:21, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:22, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:23, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
+   {id:24, image:ImageOne, avatar:AvatarImg, username:"uresiu23", price:"200", cardH2:"Sunrise set megaverse", cardH3:"0.34 Matic"},
 ]
 
 export const specialsCards = [
@@ -73,7 +73,7 @@ export const specialsCards = [
       cardH2:"Patterns and backgrounds", 
       btnTxt:"View collection", 
       btnIcon:IconRight, 
-      bgGradient:"#000",
+      bgColor:"rgba(6, 38, 56, 1)",
       image:FlowerImg
    },
    {
@@ -136,4 +136,6 @@ export const networkCards = [
       username:"davide",
       network:"Illustrator"
    },
+
+   
 ]

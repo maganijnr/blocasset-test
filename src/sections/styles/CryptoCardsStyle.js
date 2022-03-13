@@ -63,9 +63,9 @@ export const CryptoCard = styled.div`
    }
 
    @media (max-width: 550px){
-      width: 225.93px;
-      max-width: 225.93px;
-      height: 265.23px;
+      width: 200px;
+      max-width: 200px;
+      height: 270.23px;
    }
 `
 

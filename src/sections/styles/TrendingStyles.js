@@ -3,38 +3,55 @@ import Carousel from 'react-elastic-carousel'
 
 export const TrendingBody = styled.div`
    width: 100%;
-   height: 85vh;
-   position: relative;
-   background: rgba(255, 255, 255, 1);
-   margin: 1rem auto;
+   margin: 2rem 0;
+   /* background: yellow; */
+   padding: 50px 20px;
+
+   @media (max-width: 1025px){
+      padding: 40px 20px;
+   }
+
+   @media (max-width: 550px){
+      padding: 30px 10px;
+   }
 `
 
 export const TrendingContainer = styled.div`
    width: 100%;
-   max-width: 1540px;
-   position: relative;
    display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   margin:0 auto;
-   padding: 50px 20px;
-   height: 100%;
+   overflow-x: scroll;
+   padding: 10px 10px;
+
+   &::-webkit-scrollbar{
+      width: 0;
+   }
 `
 export const TrendingHeader = styled.div`
    width: 100%;
+   max-width: 700px;
+   margin:0 auto;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
    position: relative;
-   margin-bottom: 1rem;
+   
+   @media (max-width: 1025px){
+      max-width: 600px;
+   }
 
+   @media (max-width: 550px){
+      max-width: 400px;
+   }
 `
 
 export const TrendingTitle = styled.h1`
-   font-size: 52px;
    font-weight: 700;
+   font-size: 52px;
+   line-height: 56px;
+   text-align: center;
+   letter-spacing: -0.02em;
+   color: #01080B;
 
    @media (max-width: 1025px){
       font-size: 44px;
@@ -48,9 +65,12 @@ export const TrendingTitle = styled.h1`
 `
 
 export const TrendingP = styled.p`
-   color: #385160;
    font-weight: 400;
    font-size: 18px;
+   line-height: 40px;
+   letter-spacing: -0.02em;
+   color: #385160;
+   text-align: center;
 
    @media (max-width: 1025px){
       font-weight: 500;
@@ -59,7 +79,6 @@ export const TrendingP = styled.p`
    }
 
    @media (max-width: 550px){
-      font-weight: 500;
       font-size: 14px;
       line-height: 18px;
    }
@@ -67,12 +86,26 @@ export const TrendingP = styled.p`
 
 export const TrendingVector = styled.div`
    position: absolute;
-   top: 10px;
-   left: 70%;
-   transform: translateX(-30%);
+   top: 0%;
+   left: 90%;
+   transform: translateX(-20%);
+   /* width: 120px; */
 
    img{
       width: 100%;
+   }
+
+   @media (max-width: 1025px){
+      top: 10%;
+      left: 75%;
+      transform: translateX(-20%);
+   }
+
+   @media (max-width: 550px){
+      top: 15%;
+      left: 70%;
+      transform: translateX(-20%);
+      /* width: 100px; */
    }
 `
 export const TrendingCarousel = styled(Carousel)`
@@ -80,11 +113,11 @@ export const TrendingCarousel = styled(Carousel)`
    padding: 10px 0;
    button.rec-dot{
       background: rgba(229, 231, 235, 1);
-      /* box-shadow: 0 0 1px 3px rgba(229, 231, 235, 0.5); */
    }
 
    button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
       box-shadow: 0 0 1px 3px rgba(229, 231, 235, 0.5);
+      border: 1px solid rgba(229, 231, 235,1);
    }
 
    @media (max-width: 1025px){
@@ -92,24 +125,35 @@ export const TrendingCarousel = styled(Carousel)`
    }
 `
 export const CardBody = styled.div`
-   border: 0.5px solid rgba(229, 231, 235, 1);
+   border-radius: 8px;
    background: rgba(249, 250, 251, 1);
-   position: relative;
    height: 475px;
    width: 318px;
    left: 0px;
    top: 0px;
    border-radius: 8px;
 
+
+
    @media (max-width: 1025px){
       margin: 0 1rem;
       height: 450px;
-      width: 300px;
+      width: 308px;
    }
+
+   @media (max-width: 768px){
+      height: 475px;
+      width: 335px;
+   }
+
 `
 
 export const CardTop = styled.div`
    padding: 16px;
+
+   /* @media (max-width: 1025px){
+      padding: 12px 0px;
+   } */
 `
 
 export const CardImgContainer = styled.div`

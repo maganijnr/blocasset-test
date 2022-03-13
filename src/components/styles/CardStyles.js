@@ -19,10 +19,7 @@ export const CardBody = styled.div`
    @media (max-width: 550px){
       height: 475px;
       width: 335px;
-      /* left: 0px;
-      top: 0px;
-      border-radius: 8px;
-      padding: 16px; */
+      margin: 0;
    }
 `
 

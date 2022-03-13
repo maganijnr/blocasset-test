@@ -111,45 +111,12 @@ export const HeroH5 = styled.h5`
    @media (max-width: 768px){
       font-size: 14px;
    }
-`
 
-export const ElipseContainer = styled.div`
-   /* width: 683px;
-   max-width: 683px;
-   height: 100%;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   z-index: 1;
-   display: flex;
-   align-items: center;
-   justify-content: center; */
-`
-
-export const ElipseItem = styled.div`
-   /* height: 334px;
-   width: 613px;
-   border-radius: 80%;
-   position: absolute;
-
-   :first-child {
-      top: -40px;
-      left: -40px;
+   @media (max-width: 768px){
+      font-size: 14px;
+      padding: 0px 8px;
    }
 
-   :nth-child(2){
-      background: rgba(255, 109, 59, .05);
-      top: -10px;
-      left: 40px;
-   }
-
-   :last-child {
-      top: 30px;
-      left: 100px;
-      background: rgba(245, 158, 11, .05);
-      
-   } */
 `
 
 export const CoinImgOne = styled.div`
@@ -220,7 +187,7 @@ export const InputContainer = styled.div`
    }
 
    @media (max-width: 550px){
-      width: 360px;
+      width: 345px;
    }
 `
 
@@ -230,6 +197,10 @@ export const InputP = styled.p`
    color: rgba(107, 114, 128, 1);
    text-align: center;
    margin-top: 1rem;
+
+   @media (max-width: 550px){
+      font-size: 12px;
+   }
 `
 
 export const InputWrapper = styled.div`

@@ -4,8 +4,6 @@ import {
    HeroInfo,
    HeroTitle,
    HeroH5,
-   ElipseContainer,
-   ElipseItem,
    CoinImgOne,
    CoinImgTwo,
    InputContainer,
@@ -33,11 +31,6 @@ function HeroSection() {
                <img src={BitcoinImg} alt="coin"/>
             </CoinImgTwo>
             <HeroInfo>
-               <ElipseContainer>
-                  <ElipseItem></ElipseItem>
-                  <ElipseItem></ElipseItem>
-                  <ElipseItem></ElipseItem>
-               </ElipseContainer>
                <HeroTitle>
                   Discover, and sell unique web3 assets.
                </HeroTitle>

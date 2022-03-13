@@ -17,7 +17,7 @@ function Home() {
          <HeroSection/>
          <CryptoCardsSection/>
          <ReleaseSection/>
-         {/* <TrendingSection/> */}
+         <TrendingSection/>
          <SpecialSection/>
          <WorkSection/>
          <NetworkSection/>
